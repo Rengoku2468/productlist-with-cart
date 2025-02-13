@@ -1,0 +1,104 @@
+body{
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 40px;
+    background-color: rgb(247, 236, 236);
+    height: 90vh;
+}
+
+@font-face{
+    font-family: myFont;
+    src: url(RedHatText-Regular.ttf);
+}
+@font-face {
+    font-family: caps;
+    src: url(RedHatText-Bold.ttf);
+}
+#main{
+    width: fit-content;
+}
+#rest{
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    grid-template-rows: 250px 250px;
+    grid-gap: 80px 0px;
+}
+div{
+    position: relative;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 19px;
+    border:solid thin;
+    margin-left: 40px;
+    background-color: white;
+    position: absolute;
+    right: 27%;
+    top: 70%;
+    display:flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    cursor: pointer;
+}
+button p{
+    margin-left: 6px;
+    font-family: caps;
+}
+p{
+    font-family: myFont;
+}
+svg{
+    padding-top: 10px;
+}
+h1,h2{
+    font-family: caps;
+}
+h2{
+  color: orangered;
+}
+#price{
+    position: relative;
+    bottom: 5%;
+    color: orangered;
+}
+#row1{
+    display: flex;
+}
+#row1 div{
+    margin-right: 1.8%;
+}
+#row1 button{
+        height: 40px;
+        width: 120px;
+        border-radius: 19px;
+        border:solid thin;
+        margin-left: 40px;
+        position: absolute;
+        right: 21%;
+        top: 55%;
+        display:flex;
+        justify-content: flex-start;
+        font-size: 12px;
+    }
+#ha{
+    height: 290px;
+    width: 480px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#ha h2{
+  position: absolute;
+  left: 10%;
+}
